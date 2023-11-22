@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+   <!-- links to Bootstrap, css, and js-->
+  <head>
+    <title>Home Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+
+  <body>
+    <main>
+    <!-- Nav Bar using Bootstrap -->
+      <nav class="navbar navbar-dark bg-dark navbar-expand-lg mb-5">
+      <div class="container">
+          <a class="navbar-brand" href="/">
+             Q's Portfilio
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"        data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle  navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Main</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="page2.html">Dashboard</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="page3.html">Contact</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+      </nav>
+
+    <!-- Container holding an image and container holding image and paragragh -->
+      <div class="container3">
+    <div class="container2">
+      <img src="https://th.bing.com/th/id/OIP.Px6Ymf5nXj49_BfUQssGtgHaHa?rs=1&pid=ImgDetMain" alt="Self Photo" id="selfPhoto">
+    </div>
+    <p class="content">Hello! My name is Quintin, a passionate computer science student based in Pittsburg Kansas. With a deep enthusiasm for programming, I'm constantly exploring and learning to expand my knowledge and expertise. My journey in computer science has been both exciting and rewarding, and I'm eager to share my experiences with you through this website.
+    Outside of my professional life, you can often find me enjoying a book or a new movie. Whether it's reading, programming, or walking on a nice day, I believe in embracing a well-rounded lifestyle that keeps both my mind and body active.
+    Feel free to explore the different sections of this website to learn more about my work, interests, and the projects I'm passionate about. If you have any questions or just want to connect, please don't hesitate to reach out. I'm always excited to meet new people and collaborate on exciting ventures. Thanks for visiting my site, and I hope you enjoy your stay!</p>
+      </div>
+
+    <!-- more nav options-->
+      <div class= "container5">
+      <div style="text-align: right;">
+        <a href="page2.html" class="button-74" role="button">View Projects</a>
+      </div>
+      <div style="text-align: left;">
+        <a href="page3.html" class="button-74" role="button">Contact Me</a>
+      </div>
+      </div>
+
+    <!-- Animation in background-->
+      <div class="container1">
+        <div class="bubbles">
+          <span style="--i:11;"></Span>
+          <span style="--i:12;"></Span>
+          <span style="--i:24;"></Span>
+          <span style="--i:10;"></Span>
+          <span style="--i:14;"></Span>
+          <span style="--i:23;"></Span>
+          <span style="--i:18;"></Span>
+          <span style="--i:16;"></Span>
+          <span style="--i:19;"></Span>
+          <span style="--i:20;"></Span>
+          <span style="--i:22;"></Span>
+          <span style="--i:25;"></Span>
+          <span style="--i:18;"></Span>
+          <span style="--i:21;"></Span>
+          <span style="--i:15;"></Span>
+          <span style="--i:13;"></Span>
+          <span style="--i:26;"></Span>
+          <span style="--i:17;"></Span>
+          <span style="--i:13;"></Span>
+          <span style="--i:28;"></Span>
+          <span style="--i:11;"></Span>
+          <span style="--i:12;"></Span>
+          <span style="--i:24;"></Span>
+          <span style="--i:10;"></Span>
+          <span style="--i:14;"></Span>
+          <span style="--i:23;"></Span>
+          <span style="--i:18;"></Span>
+          <span style="--i:16;"></Span>
+          <span style="--i:19;"></Span>
+          <span style="--i:20;"></Span>
+          <span style="--i:22;"></Span>
+          <span style="--i:25;"></Span>
+          <span style="--i:18;"></Span>
+          <span style="--i:21;"></Span>
+          <span style="--i:15;"></Span>
+          <span style="--i:13;"></Span>
+          <span style="--i:15;"></Span>
+          <span style="--i:13;"></Span>
+        </div>
+      </div>
+
+    <!-- line Break-->
+      <hr>
+
+    <!--tic,tac,toe game-->
+      <div class="tictactoe">
+        <h2 style="color: #F1FFFA;">Tic Tac Toe - To pass some time.</h2>
+        <div class="board">
+          <div class="cell" onclick="makeMove(0)" style="color: #F1FFFA;"></div>
+          <div class="cell" onclick="makeMove(1)" style="color: #F1FFFA;"></div>
+          <div class="cell" onclick="makeMove(2)" style="color: #F1FFFA;"></div>
+          <div class="cell" onclick="makeMove(3)" style="color: #F1FFFA;"></div>
+          <div class="cell" onclick="makeMove(4)" style="color: #F1FFFA;"></div>
+          <div class="cell" onclick="makeMove(5)" style="color: #F1FFFA;"></div>
+          <div class="cell" onclick="makeMove(6)" style="color: #F1FFFA;"></div>
+          <div class="cell" onclick="makeMove(7)" style="color: #F1FFFA;"></div>
+          <div class="cell" onclick="makeMove(8)" style="color: #F1FFFA;"></div>
+        </div>
+        <p id="result" style="color: #F1FFFA;"></p>
+        <button onclick="resetGame()" class="button-74">Reset Game</button>
+      </div>
+
+    <!-- line break-->
+      <hr>
+
+    <!-- Footer-->
+      <footer>
+        <p><strong>&copy; 2023 Q's Website. All rights reserved.</strong></p>
+      </footer>
+
+  </main>
+
+    <!-- Boot Strap script-->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+    <!-- js for boxshadow follow cursor -->
+      <script>
+        const photo = document.getElementById('selfPhoto');
+
+        document.addEventListener('mousemove', (e) => {
+        const x = e.pageX;
+        const y = e.pageY;
+
+        const photoCenterX = photo.offsetLeft + photo.offsetWidth / 2;
+        const photoCenterY = photo.offsetTop + photo.offsetHeight / 2;
+
+        const distanceX = x - photoCenterX;
+        const distanceY = y - photoCenterY;
+
+        const shadowX = distanceX / 20;
+        const shadowY = distanceY / 20;
+
+        photo.style.boxShadow = `${shadowX}px ${shadowY}px 15px rgba(0, 0, 0, 1)`; // Adjust the shadow effect
+        });
+      </script>
+
+    <!-- js for tic,tac,toe-->
+  <script>
+    let currentPlayer = 'X';
+    let board = ['', '', '', '', '', '', '', '', ''];
+    const winningCombos = [
+      [0, 1, 2], [3, 4, 5], [6, 7, 8],
+      [0, 3, 6], [1, 4, 7], [2, 5, 8],
+      [0, 4, 8], [2, 4, 6]
+    ];
+    let gameOver = false;
+
+    function makeMove(index) {
+    if (board[index] === '' && !gameOver) {
+    board[index] = currentPlayer;
+    document.getElementsByClassName('cell')[index].innerText = currentPlayer;
+    if (checkWin()) {
+      document.getElementById('result').innerText = `Player ${currentPlayer} wins!`;
+      gameOver = true;
+    } else if (!board.includes('')) {
+      document.getElementById('result').innerText = "It's a draw!";
+      gameOver = true;
+    } else {
+      currentPlayer = currentPlayer === 'X' ? 'O' : 'X';
+    }
+    }
+    }
+
+    function checkWin() {
+      for (let combo of winningCombos) {
+      const [a, b, c] = combo;
+      if (board[a] && board[a] === board[b] && board[a] === board[c]) {
+        return true;
+      }
+      }
+        return false;
+      }
+
+    function resetGame() {
+      currentPlayer = 'X';
+      board = ['', '', '', '', '', '', '', '', ''];
+      gameOver = false;
+      document.getElementById('result').innerText = '';
+      const cells = document.getElementsByClassName('cell');
+      for (let cell of cells) {
+      cell.innerText = '';
+      }
+      }
+  </script>
+   <!-- End-->
+  </body>
+</html>
